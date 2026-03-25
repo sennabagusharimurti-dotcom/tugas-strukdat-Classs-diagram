@@ -1,5 +1,6 @@
 ## Deskripsi kasus
-Saya memilih masalah ini karena pengalaman pribadi yang cukup susah untuk mengatur keuangan di setiap bulannya
+Saya memilih masalah ini karena pengalaman pribadi yang cukup susah untuk mengatur keuangan di setiap bulannya, maka dari itu saya membuat sebuah 
+program yang mungkin akan membantu saya atau mungkin orang lain untuk mengatur pengeluaran untuk kebutuhan primer.
 
 ## Penjelasan Prinsip OOP yang Diterapkan
 Semua atribut dalam kelas Produk, DaftarBelanja, dan User dideklarasikan sebagai private. Data seperti harga dan jumlah dalam Produk tidak dapat diakses atau diubah secara langsung dari luar kelas, hanya dapat diambil melalui metode getTotalHarga() dan getInfo(). Demikian pula, daftarProduk dalam DaftarBelanja tidak dapat dimanipulasi secara langsung dari main.
