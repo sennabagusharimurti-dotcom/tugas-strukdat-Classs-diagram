@@ -9,5 +9,9 @@ Kelas DaftarBelanja menyembunyikan cara kerjanya dari main. Ketika metode tambah
 Tanggung Jawab Tunggal (bagian dari desain OOP)
 Setiap kelas memiliki tanggung jawab yang jelas dan tidak tumpang tindih. Kelas Produk hanya menyimpan data barang, DaftarBelanja mengelola logika daftar dan anggaran, dan User mengelola interaksi dengan pengguna melalui input dari keyboard.
 
+## CLASS DIAGRAM
+<img width="464" height="531" alt="image" src="https://github.com/user-attachments/assets/32f846d1-cadf-4afd-9ac5-3488e59d3670" />
+
+
 ## Keunikan Program
 Keunikan dari program ini ada pada pemisahan tanggung jawab pada input ke User. Biasanya logika scanner langsung ditulis di main,tapi di sini proses input produk dipindahkan ke method inputProduk() milik user. Ini mebuat main lebih bersih dan bila suatu saat input ingin diubah , cukup hanya mengganti di satu tempat.
